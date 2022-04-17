@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "service name": "Muscle Bundle",
+        "description": "Bought as a gift, was very well received! It would be incredibly though, if there were keys to change the layout to qwertz or whatever one needs. Thanks anyways, its a great product that feels very well crafted.",
+        "img": "https://www.hakuhodo-global.com/wp_admin/wp-content/uploads/2017/11/Kazuhiro_Suda2square.jpg",
+        "price": 150
+    },
+    {
+        "id": "2",
+        "service name": "Muscle Bundle",
+        "description": "Bought as a gift, was very well received! It would be incredibly though, if there were keys to change the layout to qwertz or whatever one needs. Thanks anyways, its a great product that feels very well crafted.",
+        "img": "https://www.hakuhodo-global.com/wp_admin/wp-content/uploads/2017/11/Kazuhiro_Suda2square.jpg",
+        "rating": 200
+    },
+    {
+        "id": "3",
+        "service name": "Muscle Bundle",
+        "description": "Bought as a gift, was very well received! It would be incredibly though, if there were keys to change the layout to qwertz or whatever one needs. Thanks anyways, its a great product that feels very well crafted.",
+        "img": "https://www.hakuhodo-global.com/wp_admin/wp-content/uploads/2017/11/Kazuhiro_Suda2square.jpg",
+        "rating": 220
+    }
+]
