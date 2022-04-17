@@ -6,12 +6,12 @@ import { getAuth } from 'firebase/auth';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyC_d569Bty0JTBu2cmfRzjO3tppbqCUn2E",
-    authDomain: "purai-fit-mama.firebaseapp.com",
-    projectId: "purai-fit-mama",
-    storageBucket: "purai-fit-mama.appspot.com",
-    messagingSenderId: "72295943019",
-    appId: "1:72295943019:web:30ccd6ad64f3cab4bcda2e"
+    apiKey: process.env.REACT_APP_apiKey,
+    authDomain: process.env.REACT_APP_authDomain,
+    projectId: process.env.REACT_APP_projectId,
+    storageBucket: process.env.REACT_APP_storageBucket,
+    messagingSenderId: process.env.REACT_APP_messagingSenderId,
+    appId: process.env.REACT_APP_appId,
 };
 
 // Initialize Firebase
