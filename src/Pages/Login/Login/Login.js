@@ -1,8 +1,9 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
+import SocialLogin from '../SocialLogin/SocialLogin';
 import './Login.css';
 
 const Login = () => {
@@ -24,6 +25,12 @@ const Login = () => {
         navigate(from, { replace: true });
     }
 
+    /* useEffect(() => {
+        if (user) {
+            navigate(from, { replace: true });
+        }
+    }, [user]) */
+
     const handleSubmit = event => {
         event.preventDefault();
         const email = emailRef.current.value;
@@ -41,16 +48,14 @@ const Login = () => {
             <h1 className='login-title text-center'>Please Login</h1>
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control ref={emailRef} type="email" placeholder="Enter email" required />
-                    <Form.Text className="text-muted">
-                        We'll never share your email with anyone else.
-                    </Form.Text>
+
+                    <Form.Control ref={emailRef} type="email" placeholder="Enter Your Email" required />
+
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Label>Password</Form.Label>
-                    <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
+
+                    <Form.Control ref={passwordRef} type="password" placeholder="Enter Password" required />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                     <Form.Check type="checkbox" label="Check me out" />
@@ -61,6 +66,7 @@ const Login = () => {
             </Form>
 
             <p>New to পড়াই মামা? <Link to='/register' className='text-danger text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
+            <SocialLogin></SocialLogin>
         </div>
     );
 };
