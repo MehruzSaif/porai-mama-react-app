@@ -27,11 +27,6 @@ const Register = () => {
         createUserWithEmailAndPassword(email, password);
     }
 
-    if (user) {
-        navigate('/home');
-    }
-
-
     return (
         <div className='register-form'>
             <h2 style={{ textAlign: 'center' }} className='my-5 register-title'>Please Register</h2>
