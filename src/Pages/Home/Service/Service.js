@@ -13,8 +13,8 @@ const Service = ({ service }) => {
         <div className='service'>
             <img src={img} alt="" />
             <h2>{name}</h2>
-            <p>Price: ${price}/month</p>
             <p>{description}</p>
+            <p>Price: <span className='taka-logo'>৳</span>{price}/month</p>
             <button onClick={() => navigateToServiceDetail(id)} className='btn btn-primary'>Book Now: {name}</button>
         </div>
     );

@@ -1,23 +1,23 @@
 [
     {
         "id": "1",
-        "name": "Muscle Bundle",
-        "description": "Bought as a gift, was very well received! It would be incredibly though, if there were keys to change the layout to qwertz or whatever one needs. Thanks anyways, its a great product that feels very well crafted.",
-        "img": "https://www.hakuhodo-global.com/wp_admin/wp-content/uploads/2017/11/Kazuhiro_Suda2square.jpg",
-        "price": 150
+        "name": "পদার্থবিজ্ঞান",
+        "description": "SSC পদার্থবিজ্ঞান এর সকল কনসেপ্ট শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.dribbble.com/users/1731254/screenshots/13165614/media/9afe54cf2ecfd88a8d897e513818cbc5.png",
+        "price": 4000
     },
     {
         "id": "2",
-        "name": "Workout",
-        "description": "Bought as a gift, was very well received! It would be incredibly though, if there were keys to change the layout to qwertz or whatever one needs. Thanks anyways, its a great product that feels very well crafted.",
-        "img": "https://www.hakuhodo-global.com/wp_admin/wp-content/uploads/2017/11/Kazuhiro_Suda2square.jpg",
-        "rating": 200
+        "name": "উচ্চতর গণিত",
+        "description": "SSC উচ্চতর গণিত এর সকল কনসেপ্ট শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.dribbble.com/users/1731254/screenshots/13928671/media/3b8e54c4afa6a85a99beb614d197749b.png",
+        "price": 5000
     },
     {
         "id": "3",
-        "name": "Cardio Expertise",
-        "description": "Bought as a gift, was very well received! It would be incredibly though, if there were keys to change the layout to qwertz or whatever one needs. Thanks anyways, its a great product that feels very well crafted.",
-        "img": "https://www.hakuhodo-global.com/wp_admin/wp-content/uploads/2017/11/Kazuhiro_Suda2square.jpg",
-        "rating": 220
+        "name": " জীববিজ্ঞান ",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.dribbble.com/users/1731254/screenshots/13852801/media/feaadf63bd0f19f61eab7c704d4ee5df.png",
+        "price": 3500
     }
 ]

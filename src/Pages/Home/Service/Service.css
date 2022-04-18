@@ -1,5 +1,5 @@
 .service {
-    width: 300px;
+    width: 400px;
     height: 550px;
     border: none;
     border-radius: 8px;
@@ -13,4 +13,8 @@
     width: 100%;
     height: 290px;
     border-radius: 8px;
+}
+
+.taka-logo {
+    font-size: 25px;
 }
