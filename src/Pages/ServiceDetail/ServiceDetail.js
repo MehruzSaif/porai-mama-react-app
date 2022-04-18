@@ -1,5 +1,6 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
+import './ServiceDetail.css';
 
 const ServiceDetail = () => {
     const { serviceId } = useParams();
@@ -7,6 +8,11 @@ const ServiceDetail = () => {
     return (
         <div>
             <h2>Welcome to service detail: {serviceId}</h2>
+            <div className='text-center'>
+                <Link to='/checkout'>
+                    <button className='btn checkout-btn'>Proceed Checkout</button>
+                </Link>
+            </div>
         </div>
     );
 };
