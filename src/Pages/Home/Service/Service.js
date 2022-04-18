@@ -12,9 +12,9 @@ const Service = ({ service }) => {
     return (
         <div className='service'>
             <img className='w-100' src={img} alt="" />
-            <h3 className='my-4'>{name}</h3>
-            <p><small>{description}</small></p>
-            <p>Price: <span className='taka-logo'><b>৳</b>৳</span>{price}/month</p>
+            <h3 className='my-4 service-name'>{name}</h3>
+            <p className='mt-5'><small>{description}</small></p>
+            <p className='price-writing'>Price: <span className='taka-logo'><b>৳</b></span>{price}/month</p>
             <button onClick={() => navigateToServiceDetail(id)} className='btn btn-primary'>Book Now: {name}</button>
         </div>
     );
