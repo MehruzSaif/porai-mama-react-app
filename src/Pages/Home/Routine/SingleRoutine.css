@@ -1,0 +1,17 @@
+.single-routine-card {
+    height: 250px;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 5px rgba(52, 56, 59, 0.25);
+}
+
+.daily-img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 18px;
+    margin-top: 7px;
+}

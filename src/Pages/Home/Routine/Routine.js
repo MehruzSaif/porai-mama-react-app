@@ -13,7 +13,7 @@ const routine = [
 
 const Routine = () => {
     return (
-        <div className='container'>
+        <div id='routine' className='container'>
             <h1 className='text-center mt-5 daily-routine'>ডেইলি রুটিন</h1>
             <div className="row">
                 {

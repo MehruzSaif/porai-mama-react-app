@@ -17,7 +17,9 @@ const Blogs = () => {
                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
                         <div className="accordion-body fs-5 fw-light">
-                            <strong>রিএক্ট এর গুণ হল এর সিম্প্লিসিটি। এটি মূল জাভাস্ক্রিপ্টের পাশাপাশি JSX নামে একটি বিশেষ সিনট্যাক্স ব্যবহার করে যা আমাদের জাভাস্ক্রিপ্টের ভিতরে 100% HTML লিখতে দেয়। এখন ব্রাউজার বিহ্যাইন্ড দ্যা সীনে একটা ডম ট্রি তৈরি করে যাতে ব্যবহারকারী সেই ডম ট্রি এর সাথে যোগাযোগ করতে পারে। তারপর আমাদের সামনে একটি ওয়েবপেজ উপস্থিত হয়। কিন্তু আমরা জানি যে জাভাস্ক্রিপ্ট DOM ম্যানিপুলেট করতে পারে। সুতরাং জাভাস্ক্রিপ্ট দিয়ে রেন্ডার কমপ্লিট হওয়া কোন পেজের ডম ম্যানিপুলেট করলে সেই ওয়েবপেজ আবার পুরোপুরি রেন্ডার হয়(দুই একটা লেটেস্ট ব্রাউজার ছাড়া বাকী বেশীরভাগ ব্রাউজারই পুরোপুরি নতুন করে আবার ডম ট্রি তৈরী করে রেন্ডার করে) যেটা সময় সাপেক্ষ। আর তাই একটা পেজে ডম ম্যানিপুলেট করার মতো ততো বেশী জাভাস্ক্রিপ্ট থাকলে সেই ওয়েবপেজ স্লো হয়ে যাবে। তাই এখানেই রিঅ্যাক্ট এর আসল খেলা।</strong>
+                            <strong>
+                                ফায়ারবেস অথেনটিকেশন ব্যাকএন্ড পরিষেবা প্রদান করে। এটি ব্যবহার করা সহজ SDK এবং আপনার অ্যাপে ব্যবহারকারীদের অথেনটিকেশন এর জন্য তৈরি UI লাইব্রেরি। এটি পাসওয়ার্ড, ফোন নম্বর, গুগল, ফেসবুক এবং টুইটারের মতো জনপ্রিয় সাইট, গিথুব, অ্যাপল স্টোর এবং আরও অনেক কিছু ব্যবহার করে প্রমাণীকরণ সমর্থন করে। ফায়ারবেস রিয়েলটাইম ডেটাবেস আপনাকে সরাসরি ক্লায়েন্ট-সাইড কোড থেকে ডাটাবেসে নিরাপদ অ্যাক্সেসের অনুমতি দিয়ে সমৃদ্ধ, সহযোগী অ্যাপ্লিকেশন তৈরি করতে দেয়। ডেটা স্থানীয়ভাবে বজায় থাকে, এবং অফলাইনে থাকাকালীনও, রিয়েলটাইম ইভেন্টগুলি অব্যাহত থাকে, যা শেষ ব্যবহারকারীকে একটি প্রতিক্রিয়াশীল অভিজ্ঞতা দেয়। <br /> <br />
+                                একটি সার্ভার দ্বারা অথেনটিকেশন এর জন্য একটি ব্যবহারকারীর নাম এবং পাসওয়ার্ড ব্যবহার করা হয়৷ এছাড়াও অথেনটিকেশন এর অন্যান্য উপায়গুলি কার্ড, রেটিনা স্ক্যান, ভয়েস রিকগনিশন এবং আঙ্গুলের ছাপের মাধ্যমেও হতে পারে৷</strong>
                         </div>
                     </div>
                 </div>
@@ -60,13 +62,27 @@ const Blogs = () => {
                         <button className="accordion border-0 fs-5 ms-3 fw-bold bg-white" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
                             aria-controls="collapseOne">
-                            ইউজস্টেট কিভাবে কাজ করে?
+                            ফায়ারবেস অথেনটিকেশন ব্যতীত অন্য কোন পরিষেবা প্রদান করে?
                         </button>
                     </h2>
                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
                         <div className="accordion-body fs-5 fw-light">
-                            <strong>এটি হল একটি হুক (ফাংশন) যা আপনাকে কার্যকরী উপাদানগুলিতে স্টেট ভেরিয়েবল রাখতে দেয়। আপনি এই ফাংশনে প্রাথমিক অবস্থা পাস করেন এবং এটি বর্তমান অবস্থার মান (প্রাথমিক অবস্থা নয়) সহ একটি পরিবর্তনশীল প্রদান করে এবং এই মানটি আপডেট করার জন্য অন্য একটি ফাংশন প্রদান করে।</strong>
+                            <strong>You will learn about a number of Firebase rivals in this section. Some are newer businesses, but they nevertheless provide valuable services to developers: <br />
+                                1. Parse – Open Source Backend Platform. <br />
+                                2. Back4app – Parse Hosting Platform. <br />
+                                3. Kinvey – Mobile Backend as a Service (mBaaS) for the Enterprise. <br />
+                                4.Backendless – Mobile Backend and API Services Platform. <br />
+                                5.Kuzzle – Backend for web, hybrid, or native mobile apps and IoT projects. <br />
+                                6.Pubnub – Real-time APIs and Global Messaging. <br />
+                                7.Kumulos – App Performance Management. <br />
+                                8.Game Sparks – Game Backend Platform. <br />
+                                9.Hoodie – Generic backend with a client API for Offline First application. <br />
+                                10.Appwrite – Open-Source backend for Flutter developers  <br />
+                                11.Deployd – Simple core library, with a modular API for your application. <br />
+                                12.NHost – Accelerates development and provides full control. <br />
+                                13.Amplify JS – Open-source Javascript framework.
+                            </strong>
                         </div>
                     </div>
                 </div>

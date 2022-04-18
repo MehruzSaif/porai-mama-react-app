@@ -22,8 +22,9 @@ const Banner = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>Mehruz Saif</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h2>MEET THE TUTOR <span className='text-banner'>MEHRUZ SAIF</span></h2>
+                    <p className='mb-0 text-dark'>If you wish to learn with me, you may book one of the packages listed below.</p>
+                    <p className='mb-5 text-dark'>I've created three bundles just for SSC applicants. Best Packages at Reasonable Prices may be found there.</p>
                 </Carousel.Caption>
             </Carousel.Item>
 
@@ -34,10 +35,6 @@ const Banner = () => {
                     alt="Second slide"
                 />
 
-                <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption>
             </Carousel.Item>
 
         </Carousel>
