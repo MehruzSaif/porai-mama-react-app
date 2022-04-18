@@ -13,6 +13,7 @@ const Login = () => {
     const location = useLocation();
 
     let from = location.state?.from?.pathname || "/";
+    let errorElement;
 
     const [
         signInWithEmailAndPassword,
@@ -25,11 +26,11 @@ const Login = () => {
         navigate(from, { replace: true });
     }
 
-    /* useEffect(() => {
-        if (user) {
-            navigate(from, { replace: true });
-        }
-    }, [user]) */
+    if (error) {
+        errorElement = <div>
+            <p className='text-danger'>Error: {error?.message}</p>
+        </div>
+    }
 
     const handleSubmit = event => {
         event.preventDefault();
@@ -45,7 +46,7 @@ const Login = () => {
 
     return (
         <div className='container w-50 mx-auto my-5'>
-            <h1 className='login-title text-center'>Please Login</h1>
+            <h1 className='login-title text-center mb-5'>Please Login</h1>
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
 
@@ -60,10 +61,11 @@ const Login = () => {
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                     <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
-                <Button variant="primary" type="submit">
+                <Button className='mb-3' variant="dark" type="submit">
                     Submit
                 </Button>
             </Form>
+            {errorElement}
 
             <p>New to পড়াই মামা? <Link to='/register' className='text-danger text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
             <SocialLogin></SocialLogin>
