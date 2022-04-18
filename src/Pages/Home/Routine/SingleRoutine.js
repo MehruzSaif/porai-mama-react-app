@@ -10,7 +10,7 @@ const SingleRoutine = ({ singleRoutine }) => {
                 <div className="card-body">
                     <div>
                         <h5 className="card-title">Day: {day}</h5>
-                        <p className="card-text"><b>Time:</b>{time}</p>
+                        <p className="card-text"><b>Time: </b>{time}</p>
                     </div>
 
                 </div>
