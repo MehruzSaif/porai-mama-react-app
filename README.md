@@ -22,4 +22,4 @@ This project was bootstrapped with [পড়াই মামা](https://porai-mam
 
 - React Bootstrap
 - Bootstrap
-- React.JS
+- React.js
